@@ -1,0 +1,52 @@
+body
+{
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container
+{
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    font-family: Monsieur La Doulaise;
+    font-size: 30px;
+}
+
+.clock-display
+{
+    margin-bottom: 20px;
+    font-family: Sour Gummy;
+    font-size: 30px;
+}
+
+.controls button
+{
+    margin: 0 10px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-family: Caveat;
+    font-size: 20px;
+}
+
+.controls button:hover
+{
+    background-color: #555;
+}
+
+h2
+{
+    font-family: Oswald !important;
+}
